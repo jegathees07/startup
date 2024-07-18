@@ -1,0 +1,473 @@
+body{
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+header{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row_12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 1rem;
+}
+.container_1{
+    width: 100%;
+    padding-left: 50px;
+}
+.row_1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.row_7{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 8rem;
+    row-gap: 1rem;
+    margin-top: 10px;
+}
+.row_8{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    padding: 50px 20px 20px 20px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    text-align: justify;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.row_9{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 50px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.row_10{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row_3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: -60px;
+    gap: 5rem;
+}
+.row_4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.row_5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+}
+.row_6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.row_2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.row_11{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.row_11 p{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+header{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0px 20px;
+    font-weight: 800;
+    color: black;
+}
+.anchor:hover{
+    color: rgb(218, 28, 218);
+}
+.sub:hover{
+    background-color: rgb(6, 6, 31);
+}
+.join:hover{
+    background-color: rgb(6, 6, 31);
+}
+button:hover{
+    background-color: rgb(117, 7, 117);
+}
+.menu{
+    display: none;
+}
+.join{
+    border: 1px solid transparent;
+    padding: 12px 22px;
+    color: white;
+    background-color: rgb(117, 7, 117);
+    border-radius: 10px;
+    transition: .8s all;
+}
+
+@media (max-width:800px){
+    .anchor{
+        display: none;
+    }
+    .join{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .row_3{
+        text-align: center;
+    }
+    .sec_5{
+        display: block;
+    }
+    .service{
+        width: 1340px;
+    }
+    .align{
+        column-gap: 1rem;
+    }
+    .sec_3{
+        margin-left: -100px;
+    }
+    .sec_b1{
+        text-align: center;
+    }
+}
+@media(max-width:400px){
+    .find{
+        display: none;
+    }
+    .full{
+        padding-left: 100px;
+    }
+    .sec_color,.sec_b1,.sec_3.sec_9,.sec_3,footer,.row_12,.sec_5{
+        width: 400px;
+    }
+    header{
+        gap: 2rem;
+    }
+    .earn{
+        margin-left: 170px;
+    }
+    .content{
+        margin-left: 100px;
+    }
+    .imp{
+        margin-left: 20px;
+    }
+}
+
+
+select{
+    width: 350px;
+    padding:27px 55px 15px 50px ;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+h1{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+p{
+    font-size: 18px;
+}
+.meet{
+    color: blueviolet;
+    font-weight: 600;
+}
+.service{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    width: 400px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.sec_1 p{
+    line-height: 30px;
+    font-weight: 500;
+}
+.sec_9{
+    margin-top: 70px;
+}
+.find{
+    position: absolute;
+    margin-top: -4px;
+    left: 210px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: rgb(207, 206, 206);
+}
+.pin{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.sub{
+    border: 1px solid transparent;
+    padding: 20px 138px;
+    background-color:rgb(117, 7, 117) ;
+    color: white;
+    border-radius: 10px;
+    transition: .8s all;
+}
+.subs{
+    margin-top: 40px;
+}
+.work{
+    margin-top: 20px;
+}
+.sec_1{
+    background-image: url(https://startup-saas-modern.vercel.app/_next/static/images/banner-bg-d1d19f3af4e862ba3ee37c04e4b353c8.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    margin-top: -50px;
+}
+.sec_2{
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+
+.feet{
+    word-spacing: 2px ;
+    letter-spacing: 2px;
+}
+.container_2{
+    width: 100%;
+    margin: 0;
+}
+.container_2 p{
+    font-size: 18px;
+    color: rgb(119, 117, 117);
+}
+.sec_3{
+    margin-top: 100px;
+}
+.change{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -50px;
+}
+.play{
+    border: 1px solid black;
+    width: 220px;
+    padding-left: 70px;
+    background-color: rgb(117, 7, 117);
+    color: white;
+    border-radius: 10px;
+    margin-left: 650px;
+    margin-top: -0px;
+}
+
+.align{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    justify-content: center;
+    row-gap: 7rem;
+}
+.sec_5 p{
+    margin-top: -50px;
+    margin-left: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.image_1{
+    transition: .7s all;
+}
+.image_1 img{
+    border-radius: 20px;
+}
+.image_1:hover{
+    transform: scale(1.1); 
+}
+.sec_5{
+    margin-top: 100px;
+}
+button{
+    width: 100%;
+    padding: 17px 0px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(197, 197, 197);
+    transition: .8s all;
+}
+.sign{
+    width: 90%;
+}
+.top{
+    margin-top: -70px;
+}
+.top_1{
+    margin-top: -60px;
+}
+.annual{
+    padding: 20px 20px;
+}
+.container_3{
+    width: 100%;
+}
+.month{
+    border: 1px solid black;
+    border-right: transparent;
+    padding: 13px 200px 13px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.month_1{
+    color: rgb(80, 43, 43);
+    position: absolute;
+    margin-left: -150px;
+    background-color: white;
+    padding: 13px 30px 13px 30px;
+    margin-top: -13px;
+    border-radius: 10px;
+}
+.sec_color{
+    background-color: rgb(6, 6, 31);
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.price{
+    font-weight: 600;
+}
+.deal{
+    font-size: 20px;
+}
+.recommend{
+    border: 1px solid white;
+    padding: 8px 17px;
+    background-color: rgb(117, 7, 117);
+    border-radius: 10px; 
+    position: absolute;
+    margin-top: -130px;
+    color: white;
+}
+.line{
+    border-bottom: 1px solid white;
+    color:rgb(156, 154, 154);
+}
+.line_1{
+    border-bottom: 1px solid black;
+}
+.start{
+    color: rgb(117, 7, 117);
+    font-weight: 700;
+}
+.check{
+    position: absolute;
+    margin-top: 10px;
+}
+.more{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.offer{
+    line-height: 30px;
+}
+.learn{
+    color: rgb(117, 7, 117);
+    font-weight: 600;
+}
+.sec_b1{
+    margin-top: 70px;
+}
+.com{
+    position: absolute;
+}
+input{
+    width: 280px;
+    padding: 18px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: gainsboro;
+}
+.note{
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+.row_13{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.sec_f{
+    margin-top: 100px;
+    border-top: 1px solid white;
+}
+footer{
+    margin-top: 100px;
+    background-color: rgb(6, 6, 31);
+    color: white;
+    padding: 40px 0px;
+}
+.logic{
+    color: white;
+}
